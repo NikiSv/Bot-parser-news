@@ -63,7 +63,6 @@ def select_choose(m):
 def send_news(m):
     if m.text == "нет":
         exit()
-    # Запустить проверку новостей
     else:
         check_news()
 
